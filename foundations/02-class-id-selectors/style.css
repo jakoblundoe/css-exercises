@@ -3,6 +3,10 @@
     font-family: Verdana, DejaVu Sans, sans-serif;
 }
 
+.mediumfontsize {
+    font-size: 24px;
+}
+
 #secondelement {
     color: rgb(38, 0, 255);
     font-size: 36px;
