@@ -10,10 +10,9 @@
   font-weight: 900;
   color: tomato;
   background: white;
-  padding: 4px 32px;
+  padding: 1px 32px;
   justify-self: center;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0.2em auto;
 }
 
 ul {
@@ -21,12 +20,14 @@ ul {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
+  gap: 1em;
 }
 
 a {
   font-size: 22px;
   background: white;
-  padding: 8px;
+  padding: 6px;
   /* this removes the line under the links */
   text-decoration: none;
+  /* margin: 0.4em; */
 }
