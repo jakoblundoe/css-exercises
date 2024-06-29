@@ -31,14 +31,11 @@ img {
 
 .content-row {
   display: flex;
-  flex-flow: row nowrap;
+  justify-content: center;
   gap: 52px;
 }
 
 .content-row div {
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
   text-align: center;
   max-width: 200px;
 }
