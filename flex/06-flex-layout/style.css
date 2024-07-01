@@ -53,6 +53,11 @@ a {
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
+  /* gap: 16px; */
+}
+
+.content .input {
+  margin-bottom: 16px;
 }
 
 .footer {
