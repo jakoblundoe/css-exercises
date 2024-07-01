@@ -48,9 +48,12 @@ a {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  display: flex;
+  flex-flow: column nowrap;
+  flex: 1 0 300px;
 }
 
-.cardbox  {
+.cardbox {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
